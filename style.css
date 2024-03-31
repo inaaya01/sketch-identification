@@ -1,0 +1,42 @@
+body 
+{
+    background-color:rgb(140, 236, 227) ;
+}
+
+h1 
+{
+    color: rgb(253, 17, 229);
+    font-size: 35px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#show_sketch 
+{
+    float:right;
+    font-weight: 300;
+}
+
+canvas 
+{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px rgb(76, 0, 255);}
+    to {box-shadow: 1px 1px 38px rgb(181, 15, 246);}
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Kaushan Script", cursive;
+    color:rgb(56, 17, 253)
+}
